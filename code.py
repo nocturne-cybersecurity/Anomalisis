@@ -510,7 +510,7 @@ try:
         #Si quieres crear banners como estos ve a: https://manytools.org/hacker-tools/ascii-banner/
         #la verdad a mí me encanta esa página y agradezco que exista
 
-    def start():
+    def eject():
         banner()
         print("\nPara detener usa ctrl + C")
         init()

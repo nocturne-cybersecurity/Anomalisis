@@ -24,7 +24,7 @@ Una herramienta de escaneo de red basada en Python que proporciona capacidades c
 
 1. Clona el repositorio:
    ```bash
-   git clone <url-del-repositorio>
+   git clone https://github.com/nocturne-cybersecurity/Anomalisis.git
    cd Anomalisis
    ```
 
@@ -177,9 +177,5 @@ Si encuentras algún problema o tienes sugerencias, por favor abre un "issue" en
 
 ## Estado del Proyecto
 
-Este proyecto está en desarrollo activo. Se planean las siguientes características:
-
-- [ ] Soporte para perfiles de escaneo predefinidos
-- [ ] Integración con más herramientas de seguridad
-- [ ] Interfaz web para visualización de resultados
-- [ ] Exportación a formatos adicionales (PDF, CSV)
+Este proyecto está en desarrollo.
+Hecho por Nocturne

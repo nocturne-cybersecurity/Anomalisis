@@ -29,7 +29,7 @@ Una herramienta de escaneo de red basada en Python que proporciona capacidades c
    ```
 2. Crea un entorno virtual
    ```bash
-   python -m venv .venv
+   python3 -m venv .venv
 
    source .venv/bin/activate
 

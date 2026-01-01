@@ -6,18 +6,6 @@ import re
 import json
 import socket
 import sqlite3
-import requests
-import argparse
-import subprocess
-from pathlib import Path# !/usr/bin/env python3
-#Hecho por Nocturne
-
-import os
-import re
-import json
-import socket
-import sqlite3
-import requests
 import argparse
 import subprocess
 from pathlib import Path

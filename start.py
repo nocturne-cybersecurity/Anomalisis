@@ -2,7 +2,7 @@
 
 import os
 import sys
-from code import start
+from code import eject
 if __name__ == "__main__":
     
     try:

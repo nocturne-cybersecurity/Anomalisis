@@ -2,14 +2,10 @@
 
 import os
 import sys
-from code import start, main, init_db
-
+from code import start
 if __name__ == "__main__":
+    
     try:
-        print("[*] Inicializando base de datos...")
-        init_db()
-        if len(sys.argv) > 1:
-            sys.exit(main())
         os.system("clear")
         start()
     except KeyboardInterrupt:

@@ -27,13 +27,21 @@ Una herramienta de escaneo de red basada en Python que proporciona capacidades c
    git clone https://github.com/nocturne-cybersecurity/Anomalisis.git
    cd Anomalisis
    ```
+2. Crea un entorno virtual
+   ```bash
+   python -m venv .venv
 
-2. Instala los paquetes de Python requeridos:
+   source .venv/bin/activate
+
+   #En windows .\.venv\Scripts\activate
+   ```
+
+4. Instala los paquetes de Python requeridos:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Haz el script ejecutable:
+5. Haz el script ejecutable:
    ```bash
    chmod +x start.py
    ```

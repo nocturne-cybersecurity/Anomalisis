@@ -7,7 +7,7 @@ if __name__ == "__main__":
     
     try:
         os.system("clear")
-        start()
+        eject()
     except KeyboardInterrupt:
         print("\nProceso cancelado")
         sys.exit(1)

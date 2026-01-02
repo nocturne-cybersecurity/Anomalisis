@@ -1,4 +1,5 @@
 # Anomalisis - Escáner de Red
+![BANNER](src/banner.png)
 
 Una herramienta de escaneo de red basada en Python que proporciona capacidades completas de escaneo de puertos con características de seguridad e integración con base de datos.
 

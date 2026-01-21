@@ -44,14 +44,14 @@ Una herramienta de escaneo de red basada en Python que proporciona capacidades c
 
 5. Haz el script ejecutable:
    ```bash
-   chmod +x start.py
+   chmod +x code.py
    ```
 
 ## Configuración Rápida (Crear Comando 'anomalisis')
 
 1. Crea un enlace simbólico en tu directorio bin local:
    ```bash
-   ln -s $(pwd)/start.py ~/.local/bin/anomalisis
+   ln -s $(pwd)/code.py ~/.local/bin/anomalisis
    ```
 
 2. Asegúrate de que `~/.local/bin` esté en tu PATH. Si es necesario, añade esto a tu `~/.bashrc` o `~/.zshrc`:

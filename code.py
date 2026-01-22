@@ -366,7 +366,7 @@ def run_nmap(target_ip):
 
 
 def banner():
-    print(f'''{Fore.LIGHTRED_EX}
+    print(f'''{Fore.RED}
                                                              
            (                               (                 
            )\                   )       )  )\ (      (       

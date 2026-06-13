@@ -416,15 +416,14 @@ def main():
             return 0
 
         if not args.target:
-            # Si no hay objetivo, ejecuta el modo interactivo
+            #si no hay objetivo, ejecuta el modo interactivo
             os.system("clear" if os.name != 'nt' else "cls")
             eject()
             return 0
 
-        # Si hay objetivo, ejecuta el escaneo normal
+        #si hay objetivo, ejecuta el escaneo normal
         os.system("clear" if os.name != 'nt' else "cls")
         print(f"Starting scan of {args.target}...")
-        # Aquí deberías implementar la lógica de escaneo con los argumentos
         print("Función de escaneo con argumentos aún no implementada")
 
     except KeyboardInterrupt:

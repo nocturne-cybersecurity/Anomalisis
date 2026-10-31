@@ -70,7 +70,7 @@ def show_scan_details(scan_id: int, db_path: str = "database/scan_results.db") -
             print(f"No scan found with ID: {scan_id}")
             return
         ip, output, timestamp = result
-        print(f"\n=== Scan Details ===")
+        print(f"\n    Scan Details    ")
         print(f"Scan ID: {scan_id}")
         print(f"IP: {ip}")
         print(f"Date: {timestamp}")
@@ -412,7 +412,6 @@ def main():
         if args.compare:
             scan1_id, scan2_id = args.compare
             print(f"Comparing scans {scan1_id} and {scan2_id}")
-            # Aquí deberías implementar la función de comparación
             return 0
 
         if not args.target:
